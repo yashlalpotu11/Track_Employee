@@ -1,0 +1,28 @@
+{
+  "name": "Track_Employee",
+  "version": "1.0.0",
+  "description": "> TBD.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuwRichmond/SQL-Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "Yash Lalpotu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuwRichmond/SQL-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/HuwRichmond/SQL-Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1",
+    "run-my-sql-file": "^1.0.0"
+  }
+}
