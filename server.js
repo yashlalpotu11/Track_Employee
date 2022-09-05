@@ -10,12 +10,11 @@ const connection = mysql.createConnection({
     port: 3306,
     user: "root",
     password: process.env.DB_PASSWORD,
-    // database: 'employeeTrackerDB',
     multipleStatements: true
 });
 
-const schema = fs.readFileSync(path.join(__dirname, '/schema.sql')).toString();
-const data = fs.readFileSync(path.join(__dirname, '/data.sql')).toString();
+const schema = fs.readFileSync(path.join(__dirname, './database/schema.sql')).toString();
+const data = fs.readFileSync(path.join(__dirname, './database/data.sql')).toString();
 
 connection.connect((err) => {
     if (err) throw err;
